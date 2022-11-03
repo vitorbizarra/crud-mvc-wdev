@@ -1,6 +1,6 @@
-# CRUD MVC em PHP
+# CRUD com PHP orientado a objetos, PDO e MySQL
 
-CRUD MVC em PHP desenvolvido seguindo o tutorial do canal WDEV
+CRUD com PHP orientado a objetos, PDO e MySQL desenvolvido seguindo o tutorial do canal WDEV
 
 ## Tutorial de instalação:
 * Execute o script wdev_vagas.sql no seu gerenciador de banco de dados MySQL para a criação do banco de dados utilizado no projeto
