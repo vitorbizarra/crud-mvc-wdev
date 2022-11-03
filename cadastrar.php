@@ -3,9 +3,13 @@ require __DIR__ . '/vendor/autoload.php';
 
 use \App\Entity\Vaga;
 
+DEFINE('TITLE', 'Cadastrar vaga');
+
+// Instância do objeto Vaga
+$objVaga = new Vaga;
+
 // Validação do POST
 if (isset($_POST['titulo'], $_POST['descricao'], $_POST['ativo'])) {
-    $objVaga = new Vaga;
 
     $objVaga->setTitulo($_POST['titulo']);
     $objVaga->setDescricao($_POST['descricao']);
